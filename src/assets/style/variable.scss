@@ -1,0 +1,8 @@
+// px转rem
+@function rem($px, $base: 100) {
+    @return ($px / $base) + rem;
+}
+
+@function remFont($px) {
+    @return ($px / 2) + px;
+}
